@@ -40,7 +40,7 @@ main{
 
 }
 
-#pergunta{
+.pergunta{
     font-weight: bold;
     margin: 20px auto 20px auto;
     cursor: pointer;
@@ -50,11 +50,11 @@ ul{
     list-style: none;
 }
 
-#dropdown{
+.dropdown{
     display: none;
     max-width: 397px;
 }
 
-.show{
+.dropdown.show{
     display: block !important;
 }
